@@ -7,7 +7,7 @@ export default function Nav() {
       <nav className="flex justify-evenly w-19/20 text-texto ">
         <NavLink to={"https://detema.fq.edu.uy/"}>
           <img
-            className="h-full bg-white rounded-2xl p-1 hidden md:block "
+            className="h-full bg-white rounded-2xl p-1 hidden md:block aspect-auto"
             src="images\logos\detema.png"
             alt="Logo DETEMA"
           />
