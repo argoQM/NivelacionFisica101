@@ -15,15 +15,18 @@ export default function Nav() {
             alt="Logo DETEMA"
           />
         </NavLink>
-        <NavLink to={"https://moodle3.fq.edu.uy/enrol/index.php?id=33"}>
+        <NavLink
+          className={"max-w-30"}
+          to={"https://moodle3.fq.edu.uy/enrol/index.php?id=33"}
+        >
           <a
             className="flex items-center h-full text-[#0e0036]"
-            href="MoodleFQ"
+            href="https://moodle3.fq.edu.uy/enrol/index.php?id=33"
           >
             MoodleFQ
           </a>
         </NavLink>
-        <NavLink className={" min-w-50"} to={"https://www.fq.edu.uy/"}>
+        <NavLink className={" min-w-45"} to={"https://www.fq.edu.uy/"}>
           <img
             className="h-full bg-white rounded-2xl p-1 "
             src="https://www.fq.edu.uy/sites/default/files/archivos/identidad_grafica/Logotipos_Facultad%20de%20Quimica_Horizontal%20reducido_Color_Texto%20negro.png"
@@ -36,7 +39,7 @@ export default function Nav() {
         >
           <a
             className="flex items-center  h-full text-[#0e0036]"
-            href="BedeliasCentral"
+            href="https://bedelias.udelar.edu.uy/"
           >
             Bedelias Central
           </a>
