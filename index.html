@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/src/images/logos/logogrande.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./src/NoJS.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Curso de Nivelación de Física 101.El objetivo principal de la creación de este material de apoyo dirigido a estudiantes universitarios es facilitar la comprensión y el dominio de conceptos fundamentales como vectores y sus propiedades, cinemática, dinámica, trabajo y energía, proporcionar una base sólida y estructurada que permita a los estudiantes abordar problemas complejos con confianza y precisión."
+    />
+    <meta
+      name="author"
+      content="Guillermo Rivera, Tatiana Gregorio Rodríguez, Luciana Fernández Werner, Martín Esteves Pouso, Benjamín Montenegro Minuz, Ricardo Faccio."
+    />
+    <meta
+      name="keywords"
+      content="Proyecto Tendiendo Puentes, Tendiendo Puentes, UDELAR, FQ, Física 101, Curso de nivelación, Material de apoyo"
+    />
+    <title>Curso de Nivelación Física 101</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <noscript>
+      <header class="header" >
+      <div class="mensaje-errorJS">
+        <h1>
+          <q> El JavaScrip de su navegador se encuentra deshabilitado</q>
+        </h1>
+        <div>
+          <p>
+            A continuación podrá acceder al material teórico de la pagina, pero
+            no podrá acceder al contenido audiovisual ni practico como los ejercicios de
+            preguntas verdadero o falso o las preguntas de opción múltiple que
+            requieren de JS para funcionar.
+          </p>
+          <p>
+            Si desea acceder a todo el contenido disponible, por favor habilite
+            el JS en su navegador.
+          </p>
+        </div>
+      </div>
+        <nav class="barraDeNavegacion">
+        <ul class="listado">
+          <li><a href="https://detema.fq.edu.uy/"><div class="logoContainer"><img src="./public/images/logos/detema.png" alt="Logo DETEMA"></div></a></li>
+          <li><a href="https://moodle3.fq.edu.uy/enrol/index.php?id=33">MoodleFQ</a></li>
+          <li><a href="https://www.fq.edu.uy/"><div class="logoContainer"><img src="./public/images/logos/Logotipos_Facultad de Quimica_Horizontal reducido_Color_Texto negro.png" alt="Logo Facultad de Química"></div></a></li>
+          <li><a href="https://bedelias.udelar.edu.uy/">Bedelías Central</a></li>
+        </ul>
+      </nav>
+      </header>
+      
+      <div class="contenido">
+        <h1>Curso de nivelación</h1>
+        <div>
+          <h2>Vectores</h2>
+          <div>
+            <h3>Introducción a los vectores y conceptos básicos de
+                    triángulos</h3>
+            <div class="container">
+              
+                <div class="textoContenido">
+                  <p>
+                    Los vectores son una herramienta fundamental en física y
+                    matemáticas, ya que permiten representar magnitudes que
+                    tienen dirección y sentido, como la velocidad y la fuerza.
+                  </p>
+                  <p>
+                    Aquí, se explican sus propiedades geométricas de
+                    manera sencilla, sin profundizar en formalismos matemáticos,
+                    con el objetivo de reforzar conocimientos previos y
+                    facilitar su aplicación en problemas físicos.
+                  </p>
+                  <p>
+                    Para comprender los vectores, es esencial conocer ciertos
+                    conceptos básicos de geometría, en particular los
+                    triángulos.
+                  </p>
+                  <p>
+                    El <strong>teorema de Pitágoras</strong>, establece que en
+                    un triángulo rectángulo, la suma de los cuadrados de los
+                    catetos es igual al cuadrado de la hipotenusa.
+                  </p>
+                  <p>
+                    Las razones trigonométricas: <br>
+                    <ul>
+                      <li><strong>Seno</strong>: cateto opuesto dividido por la hipotenusa.</li>
+                      <li><strong>Coseno</strong>: cateto adyacente dividido por la hipotenusa.</li>
+                      <li><strong>Tangente</strong>: cateto opuesto dividido por el cateto adyacente.</li>
+                    </ul>
+                  </p>
+                  <p>
+                    Estos conceptos son clave para el manejo de vectores, ya que permiten descomponer en los componentes y realizar cálculos geométricos en distintos contextos.
+                  </p>
+                  <p>
+                    Otro aspecto importante es la relación entre ángulos en figuras geométricas. Como al identificar ángulos opuestos por el vértice y alternos internos cuando dos rectas paralelas son cortadas por una transversal.
+                  </p>
+                  <p>
+                    Estas propiedades son útiles en diagramas de cuerpo libre y en la resolución de problemas físicos que involucran vectores en distintos planos.
+                  </p>
+                </div>
+              
+            
+                <div class="resumenContainer">
+                  <img
+                    src="images\t1\trectangulo.png"
+                    alt="Formulas trigonométricas"
+                    width="90%"
+                  />
+                </div>
+              
+            </div>
+          </div>
+          <div>
+            <h3>Definición y representación de vectores</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>
+                  Un vector se define por tres características principales: <strong>módulo</strong>, <strong>dirección</strong> y <strong>sentido</strong>.
+                  <ul>
+                    <li>El <strong>módulo</strong> es la magnitud del vector, es decir, su tamaño o longitud.</li>
+                    <li>La <strong>dirección</strong> es la recta sobre la que se encuentra el vector.</li>
+                    <li>El <strong>sentido</strong> indica hacia dónde apunta el vector dentro de su dirección.</li>
+                  </ul>
+                </p>
+                <p>En este curso, se trabajará principalmente con vectores en dos y tres dimensiones (2D y 3D). Su representación más común es mediante un segmento de flecha, donde la punta indica el sentido. Matemáticamente, los vectores se pueden expresar como duplas (en 2D) o tríos de números (en 3D), correspondientes a sus componentes en los ejes cartesianos.
+                </p>
+                <p>Cada vector puede descomponerse en sus componentes en los ejes X e Y (o X, Y y Z en 3D). Para hacerlo, se proyecta el vector sobre los ejes coordenados, obteniendo los valores de cada componente. </p>
+                <p>Esto permite expresar el vector en términos de versores unitarios: 
+                <p class="formula">
+                  <em>v</em><sub>x</sub> <em>&#238;</em> + <em>v</em><sub>y</sub> <em>&#308;</em>
+                </p>
+                donde <em>&#238;</em> y <em>&#308;</em> son los versores unitarios en las direcciones de los ejes X e Y, respectivamente.</p>
+              <p>
+                En términos geométricos, el módulo del vector se obtiene mediante el teorema de Pitágoras:
+                <p class="formula">
+                  |<em>v</em>| = &#8730;( <em>v</em><sub>x</sub><sup>2</sup> + <em>v</em><sub>y</sub><sup>2</sup> )
+                </p>
+                Esta representación algebraica facilita el cálculo y la manipulación de vectores en distintos problemas físicos y matemáticos.
+              </p>
+              </div>
+              <div class="resumenContainer"> 
+                <img
+                src="images\t1\vectores.png"
+                alt="Representación de vectores"
+                width="90%"
+                />,
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Operaciones con vectores y aplicaciones</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>
+                  Los vectores pueden sumarse y restarse, lo que permite combinarlos para obtener nuevas magnitudes resultantes.
+                </p>
+                <p>
+                  La suma de vectores tiene propiedades importantes:
+                  <ul>
+                    <li>
+                      <strong>Conmutabilidad</strong>: el orden de los vectores no altera el resultado (A + B = B + A).
+                    </li>
+                    <li>
+                      <strong>Elemento neutro</strong>: existe un vector nulo que, al sumarse con cualquier otro, deja el vector original sin cambios.
+                  </li>
+                    <li>
+                      <strong>Asociativo</strong>: si se suman tres vectores, el orden en que se agrupan no afecta el resultado.
+                    </li>
+                  </ul>
+                </p>
+                 <p>
+                  Para sumar vectores, se pueden utilizar dos métodos principales:
+                  <ol>
+                    <li>
+                      Método gráfico: se traslada un vector de manera que la punta de uno coincida con la cola del otro. La suma es el vector que une la primera cola con la última punta.
+                    </li>
+                    <li>
+                      Método algebraico: se suman las componentes <em>x</em> e <em>y</em> de cada vector por separado.
+                    </li>
+                  </ol>
+                 </p>
+                 <p>En cuanto a la resta de vectores, se aplica el mismo procedimiento que en la suma, pero sumando el vector opuesto.</p>
+                 <p>Otra operación importante es el producto escalar, que combina dos vectores y da como resultado un escalar (un número). Se puede calcular de dos maneras:</p>
+                 <ul>
+                  <li>
+                    Mediante los módulos y el coseno del ángulo entre los vectores:
+                    <p class="formula">
+                      𝐴 ⋅ 𝐵 = ∣ 𝐴 ∣ ∣ 𝐵 ∣ cos 𝜃
+                    </p>
+                  </li>
+                  <li>Multiplicando sus componentes correspondientes y sumándolas:
+                    <p class="formula">
+                      𝐴 ⋅ 𝐵 = 𝐴 𝑥 𝐵 𝑥 + 𝐴 𝑦 𝐵 𝑦
+                    </p>
+                  </li>
+                 </ul>
+                <p>El producto escalar se usa frecuentemente en cálculos de trabajo y energía en física.</p>
+                <p>Por otro lado, el producto vectorial es una operación que toma dos vectores y devuelve otro vector perpendicular a ambos.</p>
+                <p>Su magnitud se obtiene con:
+                  <p class="formula">
+                    ∣ 𝐴 × 𝐵 ∣ = ∣ 𝐴 ∣ ∣ 𝐵 ∣ sin 𝜃
+                  </p>
+                </p>
+                <p>Su dirección se determina con la regla de la mano derecha: al barrer el menor ángulo entre los vectores con los dedos de la mano derecha, el pulgar indica la dirección del vector resultante.</p>
+                <p>Finalmente, se aplica estos conceptos a un ejemplo práctico: una masa sobre un plano inclinado. Se analiza la descomposición del peso en sus componentes paralela y perpendicular al plano, usando trigonometría.</p>
+                <p>Este método es esencial para resolver problemas de dinámica y equilibrio en física.</p>
+                </div>
+              <div class="resumenContainer">
+                <img
+            className="aspect-auto"
+            src="images\t1\operando1.png"
+            alt="Suma de Vectores"
+            width="90%"
+          />
+          <img
+            className="aspect-auto"
+            src="images\t1\operando2.png"
+            alt="Producto escalar y producto vectorial"
+            width="90%"
+          />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Cinemática</h2>
+          <div>
+            <h3>Fundamentos de la Cinemática</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>La <strong>cinemática</strong> es una rama de la mecánica que estudia el movimiento de los cuerpos sin considerar las causas que lo producen. Para analizar el movimiento de una partícula, es fundamental definir un sistema de coordenadas adecuado, generalmente cartesiano, que permite describir con precisión su posición en el espacio.</p>
+                <p>El <strong>vector posición</strong> es una herramienta clave en este estudio, ya que indica la ubicación de una partícula en función del tiempo. A partir de este vector, se puede determinar el desplazamiento, que corresponde a la diferencia entre la posición final e inicial de la partícula, representando así un cambio en su ubicación.</p>
+                <p>Otro concepto esencial es la <strong>velocidad</strong>. La <strong>velocidad media</strong> se define como el cociente entre el desplazamiento y el intervalo de tiempo transcurrido, mientras que la <strong>velocidad instantánea</strong> se obtiene como la derivada de la posición respecto al tiempo en un instante específico.</p>
+                <p>Por último, la <strong>aceleración</strong> es la magnitud que indica la variación de la velocidad en el tiempo. Se trata de un vector que describe cómo cambia la velocidad de una partícula a lo largo de su trayectoria.</p>      
+                </div>
+              <div class="resumenContainer">
+                <img
+            src="images\t2\generalidades1.PNG"
+            alt="Formulas de posición y desplazamiento"
+          />
+          <img
+            src="images\t2\generalidades2.PNG"
+            alt="Formulas de velocidad y aceleración media e instantánea"
+          />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Movimiento Rectilíneo Uniforme y Movimiento Rectilíneo Uniformemente Acelerado</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>El Movimiento Rectilíneo Uniforme (MRU) se caracteriza porque un cuerpo se desplaza en línea recta con velocidad constante. En este tipo de movimiento, la aceleración es nula, lo que implica que la velocidad no cambia con el tiempo. </p>
+                <p>La ecuación fundamental del MRU es:
+                <p class="formula">
+                    X = x<sub>0</sub> + <em>v t</em>
+                </p>
+                donde X es la posición en un instante determinado, x<sub>0</sub> es la posición inicial, <em>v</em> es la velocidad constante y <em>t</em> es el tiempo transcurrido.
+              </p>
+                <p>Por otro lado, el Movimiento Rectilíneo Uniformemente Acelerado (MRUA) describe el desplazamiento de un cuerpo en línea recta con aceleración constante. Sus ecuaciones básicas son:
+                <p class="formula">
+                  <em>v</em> = <em>v</em><sub>0</sub> + <em>a t</em>
+                </p>
+                <p class="formula">
+                  X = x<sub>0</sub> + <em>v</em><sub>0</sub> t + &#189; <em>a t</em><sup>2</sup>
+                </p>
+                <p>Estas ecuaciones permiten calcular la velocidad y la posición de un cuerpo en cualquier instante, siempre que se conozcan su velocidad inicial, su aceleración y el tiempo transcurrido.</p>
+              </div>
+              <div class="resumenContainer">
+                <img src="images\t2\cinematica1d.png" alt="Formulas MRU y MRUA" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Movimiento en Dos Dimensiones y Ejemplos Prácticos</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>El movimiento en dos dimensiones involucra el estudio de trayectorias en un plano, donde se analizan por separado las componentes horizontal y vertical del movimiento.</p>
+                <p>Uno de los casos más comunes es el lanzamiento de proyectiles, en el que un objeto se mueve siguiendo una trayectoria parabólica debido a la acción de la gravedad.</p>
+                <p>En este tipo de movimiento, la componente horizontal mantiene una velocidad constante, mientras que la componente vertical está sujeta a una aceleración constante debido a la gravedad. Las ecuaciones de movimiento permiten calcular variables como la altura máxima, el tiempo de vuelo y el alcance del proyectil.</p>
+                <p>Para ilustrar estos conceptos, se pueden analizar ejemplos prácticos, como el lanzamiento de una pelota desde una determinada altura o el disparo de un proyectil con un ángulo de inclinación dado. A partir de estos casos, es posible aplicar las ecuaciones cinemáticas para predecir el comportamiento del objeto en movimiento y obtener resultados precisos sobre su trayectoria.</p>
+              </div>
+              <div class="resumenContainer">
+                <img
+            src="images\t2\cinematica2d.png"
+            alt="Tiro vertical, caída libre y movimiento del proyectil"
+          />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Dinámica</h2>
+          <div>
+            <h3>Introducción y Clasificación de las Fuerzas en Dinámica</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>En el movimiento circular, aunque la magnitud de la velocidad sea constante, su dirección cambia, generando una aceleración centrípeta. Las fuerzas se clasifican en fundamentales y derivadas:
+                  <br>
+                  <strong>Fuerzas fundamentales:</strong>
+                  <ul>
+                    <li><strong>Fuerza gravitatoria</strong>: Disminuye con el cuadrado de la distancia entre masas.</li>
+                    <li><strong>Fuerza electromagnética</strong>: Resultado de la interacción entre cargas eléctricas y campos magnéticos.</li>
+                    <li><strong>Fuerza nuclear fuerte</strong>: Mantiene unidas las partículas en el núcleo atómico.</li>
+                    <li><strong>Fuerza nuclear débil</strong>: Relacionada con procesos de desintegración radiactiva.</li>
+                  </ul>
+                  <br>
+                  <strong>Fuerzas derivadas:</strong>
+                  <ul>
+                    <li><strong>Peso</strong>: Depende de la fuerza gravitatoria y se calcula con las masas involucradas y la constante gravitacional.</li>
+                    <li><strong>Fuerza de tensión</strong>: Transmite movimiento mediante cuerdas o cables.</li>
+                    <li><strong>Fuerza normal</strong>: Evita que los objetos atraviesen superficies, resultado de interacciones electromagnéticas.</li>
+                    <li><strong>Fuerza de rozamiento</strong>:
+                    <ul>
+                      <li><strong>Estática</strong>: Se adapta para mantener el equilibrio hasta su límite máximo.</li>
+                      <li><strong>Dinámica</strong>: Actúa en sentido opuesto al movimiento relativo entre superficies.</li>
+                    </ul>
+                    </li>
+                    <li><strong>Fuerza elástica</strong>: Describe la interacción en resortes según la ley de Hook, donde la fuerza depende de la elongación.</li>
+                  </ul>
+                </p>
+                <p>La fuerza de peso, como derivada de la gravedad, se simplifica usando una aceleración gravitatoria aproximada de 9.8 m/s² para resolver problemas mecánicos.</p>
+                <p>Las fuerzas de vínculo, como la tensión y la normal, conectan objetos y movimientos mediante simplificaciones macroscópicas.</p>
+                <p>El rozamiento, en sus formas estática y dinámica, se modela para analizar interacciones complejas de forma práctica.</p>
+                <p>Finalmente, la ley de Hook representa fuerzas elásticas idealizadas en resortes, aunque los reales pueden mostrar comportamientos más complejos.</p>
+              </div>
+              <div class="resumenContainer">
+                <img
+                src="images\t3\fuerza1.png"
+                alt="Concepto de Fuerza"
+                
+              />
+              <img
+                src="images\t3\fuerza2.png"
+                alt="Fuerzas fundamentales"
+                
+              />
+              <img
+                src="images\t3\fuerza3.png"
+                alt="Fuerzas derivadas"
+                
+              />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Leyes de Newton</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <strong>Primera ley de Newton: Ley de Inercia</strong>
+                <p>
+                  Un cuerpo permanece en estado de reposo o en movimiento rectilíneo uniforme a menos que una fuerza neta actúe sobre él. Esta ley establece que la ausencia de fuerzas externas mantiene inalterado el estado de movimiento de un objeto, reflejando su tendencia natural a la inercia.
+                </p>
+                <strong>Segunda ley de Newton: Ley de la Fuerza y la Aceleración</strong>
+                <p>
+                  La segunda ley define una relación directa entre la fuerza neta aplicada a un cuerpo y la aceleración resultante, siendo proporcional a su masa inercial. Se expresa mediante la ecuación F = ma, donde F es la fuerza neta, m es la masa y a es la aceleración. Esta ley permite calcular el efecto de fuerzas sobre el movimiento de un objeto.
+                </p>
+                <strong>Tercera ley de Newton: Ley de Acción y Reacción</strong>
+                <p>
+                  Para toda acción hay una reacción igual en magnitud y opuesta en dirección. Esto significa que, cuando un cuerpo ejerce una fuerza sobre otro, el segundo ejerce una fuerza de igual intensidad pero en el sentido opuesto sobre el primero. Esta ley explica la interacción entre cuerpos y la reciprocidad de las fuerzas.
+                </p>
+                <p>
+                  Estas tres leyes forman la base de la mecánica clásica, proporcionando herramientas para analizar y predecir el comportamiento de objetos sometidos a diversas fuerzas.
+                </p>
+              </div>
+              <div class="resumenContainer"><img
+                src="images\t3\newton.png"
+                alt="Leyes de Newton"
+              />
+            </div>
+            </div>
+          </div>
+          <div>
+            <h3>Aplicación del Diagrama de Cuerpo Libre en el Análisis de Fuerzas y Movimientos</h3>
+            <div class="container">
+              <div class="textoContenido">
+                <p>En el estudio de dinámica, el diagrama de cuerpo libre es una herramienta clave para visualizar las fuerzas que actúan sobre un objeto aislado dentro de un sistema.</p>
+                <p>Representar fuerzas como la normal y el peso en estos diagramas permite comprender mejor el equilibrio y el movimiento de los cuerpos.</p>
+                <p>Para resolver problemas de dinámica, es esencial definir un sistema de ejes consistente a lo largo del análisis. Elegir un sistema que minimice la descomposición de vectores facilita el cálculo al reducir la cantidad de fuerzas que deben considerarse.</p>
+                <p>Por ejemplo, en un plano inclinado, el análisis del equilibrio requiere determinar el coeficiente de rozamiento estático, utilizando un diagrama de cuerpo libre y descomponiendo las fuerzas en los ejes. La aplicación de la segunda ley de Newton permite derivar ecuaciones de equilibrio en los ejes x e y, considerando las fuerzas involucradas.</p>
+                <p>El coeficiente de rozamiento estático se calcula basándose en el ángulo de inclinación y las fuerzas implicadas, representando la tangente de dicho ángulo en situaciones de equilibrio. Esto se analiza en casos extremos, como planos horizontales y verticales, para entender su comportamiento.</p>
+                <p>Por otro lado, al estudiar el movimiento rectilíneo uniformemente acelerado en planos inclinados, es crucial considerar el rozamiento cinético. Las ecuaciones dinámicas relacionan este coeficiente con la aceleración, proporcionando información sobre el movimiento del cuerpo.</p>
+              </div>
+              <div class="resumenContainer"><img
+                src="images\t3\cuerpolibre.png"
+                alt="Diagrama de cuerpo libre"
+              /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <img src="./public/images/logos/Logotipos_Facultad de Quimica_Vertical_Color_Texto negro.png" alt="Logo Facultad de Quimica y UdelaR">
+        <span>Proyecto <strong>Tendiendo Puentes</strong></span>
+        <img src="./public/images/logos/detema.png" alt="Logo DETEMA">
+      </footer>
+    </noscript>
+  </body>
+</html>

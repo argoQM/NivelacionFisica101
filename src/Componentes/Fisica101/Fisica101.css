@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&family=Martian+Mono:wght@100..800&family=Nerko+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* .body {
+  margin: 0;
+  box-sizing: border-box; */
+/* --color_texto: #0e0036;
+  --color_fondoPrincipal: #fff;
+  --color_enfasis: #f2875f; */
+/* background-color: var(--color_fondoPrincipal);
+  color: var(--color_texto);
+  font-family: "Arimo", "Martian Mono";
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.3s;
+} */
+/* .activo {
+  --color_texto: #fff;
+  --color_fondoPrincipal: #0e0036;
+  --color_enfasis: #ff3b1f;
+} */
+/* .bodyPrincipal2 {
+  margin: auto;
+  max-width: 1200px;
+  border: transparent solid 2px;
+  box-sizing: border-box;
+  width: 100dvw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+} */
+/*############################################# Temario */
+/* .temario {
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 5px;
+  width: 20%;
+  color: var(--color_fondoPrincipal);
+  transition: 0.3s ease-in-out;
+  font-size: 1rem;
+  align-items: start;
+  padding-top: 10px;
+} */
+/* Temas Completos */
+/* .temario:hover .tituloCompleto {
+  visibility: visible;
+  display: block;
+} */
+/* .temasCompletos {
+  display: block;
+  width: 100%;
+  height: 70%;
+  padding-left: 0px;
+} */
+/* .tituloCompleto {
+  visibility: hidden;
+  display: none;
+  box-sizing: border-box;
+  margin-top: 15px;
+  border: var(--color_fondoPrincipal) solid 1px;
+  border-radius: 15px;
+  background-color: var(--color_texto);
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s ease-in-out;
+  font-size: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 5px;
+}
+.tituloCompleto:hover {
+  background-color: var(--color_enfasis);
+  color: var(--color_texto);
+  scale: 1.15;
+} */
+/* Temas Abreviados */
+/* .temario:hover .temasAbreviados {
+  visibility: hidden;
+  display: none;
+} */
+/* .temasAbreviados {
+  display: block;
+  padding-left: 0px;
+  width: 100%;
+  height: 70%;
+} */
+/* .tituloAbreviado {
+  box-sizing: border-box;
+  margin-top: 15px;
+  border: var(--color_fondoPrincipal) solid 1px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: var(--color_texto);
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 30px;
+} */
+/* ############################################# Contenido */
+/* .contenido {
+  width: 80%;
+  color: var(--color_texto);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+  box-sizing: border-box;
+  margin: 0;
+  height: 10%;
+  border-bottom: var(--color_enfasis) solid 1px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+} */
+/* Video activo */
+/* .VideoActivo {
+  box-sizing: border-box;
+  margin: 0;
+  height: 40%;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+/* .VideoActivo iframe {
+  height: 90%;
+} */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+  box-sizing: border-box;
+  height: 5%;
+  font-size: 1.25rem;
+  padding: 2.5px 0 2.5px;
+} */
+/* .tituloVideosPracticos {
+  padding: 2.5px 0 2.5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  height: 5%;
+} */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+  box-sizing: border-box;
+  margin: 0;
+  height: 10%;
+  width: 100%;
+}
+.contenedorMiniaturas {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.miniatura {
+  width: 100px;
+  height: 100%;
+  user-select: none;
+  cursor: pointer;
+  scale: 0.75;
+  transition: 0.2s ease-in-out;
+}
+.miniatura:hover {
+  scale: 1;
+  display: flex;
+  align-items: center;
+}
+.miniaturaImg {
+  height: 90%;
+}
+.clase {
+  height: 10%;
+  color: var(--color_texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* @media (max-width: 1366px), (max-height: 768px) { */
+/*############################################# Temario */
+/* .temario {
+    scale: 1;
+    font-size: 0.35rem;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .temario:hover {
+    scale: 1;
+  } */
+/* Temas Completos */
+/* .temario:hover .temasCompletos {
+    display: block;
+    visibility: visible;
+    width: 100%;
+  }
+  .tituloCompleto {
+    font-size: 0.6rem;
+    width: 150px;
+  }
+  .tituloCompleto:hover {
+    scale: 1.15;
+    border-color: var(--color_enfasis);
+  } */
+/* Temas Abreviados */
+/* .temario:hover .tituloAbreviado {
+    display: none;
+    visibility: hidden;
+  }
+  .temasAbreviados {
+    display: block;
+  }
+  .tituloAbreviado {
+    max-height: 25px;
+    font-size: 0.6rem;
+    width: 75px;
+  }
+  .tituloAbreviado:hover {
+    scale: 1.15;
+    border-color: var(--color_enfasis);
+  } */
+/* ############################################# Contenido */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+  } */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+    font-size: 0.85rem;
+    margin: 2px 0;
+  }
+  .tituloVideosPracticos {
+    display: flex;
+    font-size: 0.7rem;
+  } */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+  }
+  .contenedorDeListaDeVideos img {
+    width: 70px;
+    max-height: 60px;
+  }
+  .clase {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1024px), (max-height: 720px) { */
+/*############################################# Temario */
+/* .temario {
+    scale: 1;
+    font-size: 0.35rem;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .temario:hover {
+    scale: 1;
+  } */
+/* Temas Completos */
+/* .temario:hover .temasCompletos {
+    display: block;
+    visibility: visible;
+    width: 100%;
+  }
+  .tituloCompleto {
+    font-size: 0.6rem;
+    width: 150px;
+  }
+  .tituloCompleto:hover {
+    scale: 1.15;
+    border-color: var(--color_enfasis);
+  } */
+/* Temas Abreviados */
+/* .temario:hover .tituloAbreviado {
+    display: none;
+    visibility: hidden;
+  }
+  .temasAbreviados {
+    display: block;
+  }
+  .tituloAbreviado {
+    max-height: 25px;
+    font-size: 0.6rem;
+    width: 75px;
+  }
+  .tituloAbreviado:hover {
+    scale: 1.15;
+    border-color: var(--color_enfasis);
+  } */
+/* ############################################# Contenido */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+  } */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+    font-size: 0.65rem;
+    margin: 2px 0;
+  }
+  .tituloVideosPracticos {
+    display: none;
+  } */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+  }
+  .contenedorDeListaDeVideos img {
+    width: 80px;
+    max-height: 70px;
+  }
+}
+@media (max-width: 960px), (max-height: 640px) { */
+/*############################################# Temario */
+/* .temario {
+    scale: 1;
+    font-size: 0.35rem;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .temario:hover {
+    scale: 1;
+  } */
+/* Temas Completos */
+/* .temario:hover .temasCompletos {
+    display: block;
+    visibility: visible;
+    width: 100%;
+  }
+  .tituloCompleto {
+    font-size: 0.5rem;
+    width: 150px;
+    height: 50px;
+  }
+  .tituloCompleto:hover {
+    scale: 1.1;
+    border-color: var(--color_enfasis);
+  } */
+/* Temas Abreviados */
+/* .temario:hover .tituloAbreviado {
+    display: none;
+    visibility: hidden;
+  }
+  .temasAbreviados {
+    display: block;
+  }
+  .tituloAbreviado {
+    max-height: 25px;
+    font-size: 0.6rem;
+    width: 75px;
+  }
+  .tituloAbreviado:hover {
+    scale: 1.15;
+    border-color: var(--color_enfasis);
+  } */
+/* ############################################# Contenido */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+  } */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+    font-size: 0.65rem;
+    margin: 2px 0;
+  }
+  .tituloVideosPracticos {
+    display: none;
+  } */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+  }
+  .contenedorDeListaDeVideos img {
+    width: 65px;
+    max-height: 65px;
+  }
+}
+@media (max-width: 800px), (max-height: 480px) { */
+/*############################################# Temario */
+/* .temario {
+    scale: 1;
+    font-size: 0.35rem;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .temario:hover {
+    scale: 1;
+  } */
+/* Temas Completos */
+/* .temario:hover .temasCompletos {
+    display: none;
+  } */
+/* Temas Abreviados */
+/* .temario:hover .temasAbreviados {
+    display: block;
+    visibility: visible;
+  }
+  .temario:hover .tituloAbreviado {
+    display: flex;
+    visibility: visible;
+  }
+  .temasAbreviados {
+    display: block;
+  }
+  .tituloAbreviado {
+    max-height: 25px;
+    font-size: 0.6rem;
+    width: 75px;
+  }
+  .tituloAbreviado:hover {
+    scale: 1.15;
+    border-color: var(--color_enfasis);
+  } */
+/* ############################################# Contenido */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+  } */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+    font-size: 0.6rem;
+  }
+  .tituloVideosPracticos {
+    display: none;
+  } */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+    font-size: 0.55rem;
+    margin-bottom: 5px;
+  }
+  .contenedorDeListaDeVideos img {
+    width: 60px;
+    max-height: 50px;
+  }
+}
+@media (max-width: 480px), (max-height: 320px) { */
+/*############################################# Temario */
+/* .temario {
+    scale: 0.9;
+    font-size: 0.35rem;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .temario:hover {
+    scale: 0.9;
+  } */
+/* Temas Completos */
+/* .temario:hover .temasCompletos {
+    display: none;
+  } */
+/* Temas Abreviados */
+/* .temario:hover .tituloAbreviado {
+    display: flex;
+    visibility: visible;
+  }
+  .temasAbreviados {
+    display: block;
+  }
+  .tituloAbreviado:hover {
+    scale: 1;
+    border-color: var(--color_enfasis);
+  } */
+/* ############################################# Contenido */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+    font-size: 0.7rem;
+  } */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+    font-size: 0.6rem;
+  }
+  .tituloVideosPracticos {
+    display: none;
+  } */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+  }
+  .contenedorDeListaDeVideos img {
+    width: 30px;
+  }
+}
+@media (max-width: 400px), (max-height: 300px) { */
+/*############################################# Temario */
+/* .temario {
+    scale: 0.9;
+    font-size: 0.35rem;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .temario:hover {
+    scale: 0.9;
+  } */
+/* Temas Completos */
+/* .temario:hover .temasCompletos {
+    display: none;
+  } */
+/* Temas Abreviados */
+/* .temario:hover .tituloAbreviado {
+    display: flex;
+    visibility: visible;
+  }
+  .tituloAbreviado {
+    width: 50px;
+  }
+  .tituloAbreviado:hover {
+    border-color: var(--color_enfasis);
+    scale: 1;
+  } */
+/* ############################################# Contenido */
+/* Titulo del tema Seleccionado */
+/* .tituloDelTemaActivo {
+    font-size: 0.7rem;
+  } */
+/* Titulo cabecera de videos */
+/* .tituloVideosTeoricos {
+    font-size: 0.6rem;
+  }
+  .tituloVideosPracticos {
+    display: none;
+  } */
+/* Contenedor de videos */
+/* .contenedorDeListaDeVideos {
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+  }
+  .contenedorDeListaDeVideos img {
+    width: 30px;
+    max-height: 20px;
+  }
+  .clase {
+    display: none;
+  }
+} */

@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inconsolata:wght@200..900&family=Martian+Mono:wght@100..800&family=Nerko+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* --color-enfasis: #f2875f; */
+  --color-enfasis: #fe6800;
+  --color-texto: #0e0036;
+  --color-fondoPrincipal: #f4f4f4;
+  --color-naranjaO: #fe3a00;
+  --color-naranjaM: #fe6800;
+  --color-naranjaC: #f28705;
+}
+@layer components {
+  .tvf1 {
+    @apply collapse hidden sm:visible sm:block;
+  }
+  .tvf2 {
+    @apply collapse hidden lg:visible lg:block;
+  }
+
+  .activo {
+    --color-enfasis: initial;
+    --color-texto: initial;
+    --color-fondoPrincipal: initial;
+    /* --color-enfasis: #ff4500; */
+    --color-enfasis: #fe6800;
+    --color-texto: #f4f4f4;
+    --color-fondoPrincipal: #0e0036;
+    --color-naranjaC: #f28705;
+    --color-naranjaM: #fe6800;
+    --color-naranjaO: #fe3a00;
+  }
+}
+
+/* ------------------------------------- */
+.body {
+  font-family: "Arimo", "Martian Mono";
+}
+/* .activo {
+  --color_texto: #fff;
+  --color_fondoPrincipal: #0e0036;
+  --color_enfasis: #ff3b1f;
+} */
+/* ########################################################  Mensaje de inicio */
+.titulo-personalizado {
+  font-size: 1.5rem;
+}
+/* ########################################################  Componentes Principales*/
+/* .headerPrincipal {
+  max-width: 1200px;
+  width: 100dvw;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 15px;
+  border-radius: 25px;
+} */
+/* .bodyPrincipal {
+  margin: auto;
+  max-width: 1200px;
+  border: transparent solid 2px;
+  box-sizing: border-box;
+  width: 100dvw;
+  height: 80vh;
+}
+.footerPrincipal {
+  margin: auto;
+  max-width: 1200px;
+  width: 100dvw;
+  height: 10vh;
+  box-sizing: border-box;
+  padding: 0px 5px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 15px;
+  border-radius: 25px;
+  color: #0e0036;
+  user-select: none;
+} */
+/* #########################################################  Header */
+/* .enlacesPrincipales {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logofq {
+  height: 8vh;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+.enlacesPrincipales a {
+  text-decoration: none;
+  color: #0e0036;
+}
+.switchModo {
+  color: #0e0036;
+  box-sizing: border-box;
+  padding: 2px 5px;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.switchModo:hover {
+  color: #f46702;
+} */
+/* ##########################################################   Body */
+/* ##########################################################   Cabecera */
+/* .contenedorCabecera {
+  height: 10%;
+  display: flex;
+  box-sizing: border-box;
+  border: transparent solid 2px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  font-size: 3rem;
+} */
+/* ###########################################################    Subtemas */
+/* .contenedorNBSubtemas {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  border: transparent solid 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.subtema {
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+.subtemaActiva {
+  border-bottom: var(--color_enfasis) solid 2px;
+  border-radius: 25px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subtema:hover {
+  border-bottom: var(--color_enfasis) solid 2px;
+  border-radius: 25px;
+} */
+/* ###########################################################    Contenido */
+/* .contenedorCuerpo {
+  height: 60%;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+  border: transparent solid 2px;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+/* -----------------------------------------------------------    Teoria */
+/* .botonesTeoria {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+  height: 10%;
+} */
+/* .btnTeo {
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+  border: 1px solid var(--color_texto);
+} */
+/* .btnTeo:hover {
+  background-color: var(--color_enfasis);
+} */
+/* .btnTeoActiva {
+  background-color: var(--color_enfasis);
+  width: 20px;
+  height: 20px;
+} */
+/* .contenedorMaterialTeorico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 90%;
+  border-radius: 15px;
+  overflow: hidden;
+} */
+/* .teoricos {
+  width: 100%;
+  height: 100%;
+} */
+/* -----------------------------------------------------------    Preguntas Verdadero o Falso */
+/* .contenedorTarjetasVF {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  box-sizing: border-box;
+} */
+/* .contenedorExplicacionVF {
+  width: 90%;
+  height: 40%;
+  border-radius: 15px;
+  transition: 0.3s;
+  overflow: auto;
+} */
+/* .btnVF {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+/* .btnVF button {
+  background-color: transparent;
+  color: var(--color_texto);
+  border: var(--color_texto) solid 1px;
+  height: 25px;
+  width: 100px;
+  border-radius: 15px;
+  padding: 2px 15px;
+} */
+/* .btnVF button:hover {
+  background-color: var(--color_enfasis);
+  color: var(--color_texto);
+  border: var(--color_texto) solid 1px;
+} */
+/* .enunciadoVF {
+  border: var(--color_enfasis) 1px solid;
+  border-radius: 15px;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 25px 10px 0px;
+  flex-direction: column;
+} */
+/* .rbtnVF {
+  width: 70%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+/* .explicacionVF {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  box-sizing: border-box;
+} */
+/* .tvf {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 5px;
+  transition: 0.5s ease-in;
+} */
+/* .tvf:hover {
+  border-radius: 15px;
+  background-color: var(--color_enfasis);
+  color: var(--color_texto);
+} */
+/* -----------------------------------------------------------    Preguntas Multiple Opcion */
+/* .contenedorTarjetasMO {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  box-sizing: border-box;
+} */
+/* .btnMO {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+/* .btnMO button {
+  background-color: transparent;
+  color: var(--color_texto);
+  border: var(--color_texto) solid 1px;
+  height: 25px;
+  width: 100px;
+  border-radius: 15px;
+  padding: 2px 15px;
+} */
+/* .btnMO button:hover {
+  background-color: var(--color_enfasis);
+  color: var(--color_texto);
+  border: var(--color_texto) solid 1px;
+} */
+/* .enunciadoMO {
+  border: var(--color_enfasis) 1px solid;
+  border-radius: 15px;
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  padding: 25px 10px 0px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.8rem;
+} */
+/* .rbtnMO {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 5px 0;
+} */
+/* .opcionMO {
+  width: 45%;
+} */
+/* .contenedorExplicacionMO {
+  width: 90%;
+  height: 40%;
+  overflow: auto;
+  font-size: 0.9rem;
+} */
+/* .explicacionMO {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+/* .tmo {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 5px;
+  transition: 0.5s ease-in;
+} */
+/* .tmo:hover {
+  background-color: var(--color_enfasis);
+  color: var(--color_texto);
+  border-radius: 15px;
+} */
+/* -----------------------------------------------------------    Bibliografia */
+/* .contenedorResumen {
+  width: 100%;
+  height: 100%;
+} */
+/* .resumenBio {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+} */
+/* .contenedorFormulas {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+/* .formulasBio {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .formulasBio img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  scale: 1;
+  transition: 0.3s;
+} */
+/* .formulasBio img:hover {
+  scale: 1.75;
+} */
+/* .contenedorBiblio {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+} */
+/* .bibliografiaBio {
+  width: 150px;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .btnBibliografia {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+  height: 5%;
+} */
+/* .btnBibliografia span::after {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.5;
+  box-sizing: border-box;
+  height: 25px;
+  width: 25px;
+  user-select: none;
+  color: var(--color_texto);
+  transition: 1s;
+  border-radius: 25px;
+} */
+/* .btnBibliografia span:hover {
+  border: solid var(--color_texto) 1px;
+  color: var(--color_texto);
+  opacity: 1;
+} */
+/* ############################################################   Secciones */
+/* .contenedorNBSecciones {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  border: transparent solid 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row;
+}
+.secciones {
+  font-size: 1.5rem;
+  border: var(--color_fondoPrincipal) solid 2px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 25px;
+  width: 75px;
+  min-height: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.secciones i {
+  pointer-events: none;
+}
+.seccionActiva {
+  color: var(--color_texto);
+  background-color: var(--color_enfasis);
+  border-color: var(--color_texto);
+}
+.secciones:hover {
+  color: var(--color_texto);
+  background-color: var(--color_enfasis);
+  border-color: var(--color_texto);
+} */
+/* ##############################################################   Temas */
+/* .contenedorNBTemas {
+  height: 10%;
+  display: flex;
+  box-sizing: border-box;
+  border: transparent solid 2px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  width: 100%;
+}
+.tema {
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.tema:hover {
+  border-bottom: var(--color_enfasis) solid 2px;
+  border-radius: 25px;
+} */
+/* ##############################################################   Footer */
+/* .logofqudelar {
+  height: 10dvh;
+  background-color: #fff;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+.detemaheader {
+  background-color: #fff;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding-right: 5px;
+  height: 5dvh;
+}
+.detema {
+  background-color: #fff;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding-right: 5px;
+  height: 75%;
+} */
+
+/* Personalizacion del ScrollBar */
+/* Personaliza el ancho y el color de la barra de desplazamiento */
+/* ::-webkit-scrollbar {
+  width: 15px;
+  height: 8px;
+} */
+/* Personaliza la parte de la barra que se desliza (la "manija") */
+::-webkit-scrollbar-thumb {
+  background: var(--color_texto);
+  border-radius: 5px;
+}
+/* Cambia el color de la manija al pasar el cursor sobre ella */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color_fondoPrincipal);
+}

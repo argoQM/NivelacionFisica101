@@ -1,0 +1,143 @@
+:root {
+  --color-azul: #0e0036;
+  --color-naranja: #f28705;
+  --color-blanco-puro: #fff;
+  --color-blanco: #f4f4f4;
+}
+body {
+  background-color: var(--color-blanco);
+}
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+  text-decoration-color: var(--color-naranja);
+}
+.header {
+  max-width: 1200px;
+  margin: auto;
+}
+.mensaje-errorJS {
+  text-align: left;
+
+  background-color: var(--color-azul);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 16px;
+  box-sizing: border-box;
+}
+.mensaje-errorJS h1 {
+  color: var(--color-naranja);
+  font-size: 2rem;
+}
+
+.mensaje-errorJS p {
+  color: var(--color-blanco-puro);
+  width: 100%;
+}
+.barraDeNavegacion {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.listado {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  list-style: none;
+  padding: 0 8px;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: var(--color-azul);
+  padding: 0 8px;
+  height: 100%;
+  margin: 0 25px;
+}
+a:hover {
+  color: var(--color-naranja);
+}
+.barraDeNavegacion ul li {
+  border-bottom: transparent solid 4px;
+  border-radius: 25px;
+}
+.barraDeNavegacion ul li:hover {
+  border-bottom-color: var(--color-azul);
+}
+.logoContainer {
+  height: 95px;
+  margin-bottom: -20px;
+}
+.logoContainer img {
+  max-height: 100%;
+}
+
+.resumenContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.resumenContainer img {
+  margin: 5px 0;
+  width: 90%;
+  border-radius: 25px;
+}
+.formula {
+  text-align: center;
+}
+.contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 20px 16px;
+  box-sizing: border-box;
+}
+
+.footer {
+  max-width: 1200px;
+  height: 100px;
+  font-size: 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer img {
+  height: 95px;
+  padding: 8px 0;
+}
+span {
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .header,
+  .footer {
+    max-width: 75%;
+  }
+  .container {
+    display: flex;
+  }
+  .contenido {
+    font-size: 2rem;
+    max-width: 75%;
+  }
+  .textoContenido,
+  .resumenContainer {
+    width: 50%;
+  }
+  .mensaje-errorJS h1 {
+    font-size: 2.5rem;
+  }
+
+  .mensaje-errorJS p {
+    font-size: 2rem;
+  }
+}
