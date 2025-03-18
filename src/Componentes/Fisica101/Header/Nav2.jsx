@@ -5,9 +5,12 @@ export default function Nav() {
   return (
     <>
       <nav className="flex justify-evenly w-19/20 text-texto ">
-        <NavLink to={"https://detema.fq.edu.uy/"}>
+        <NavLink
+          className={"hidden lg:block min-w-60 "}
+          to={"https://detema.fq.edu.uy/"}
+        >
           <img
-            className="h-full bg-white rounded-2xl p-1 hidden md:block"
+            className="h-full bg-white rounded-2xl p-1 "
             src="images\logos\detema.png"
             alt="Logo DETEMA"
           />
@@ -20,22 +23,25 @@ export default function Nav() {
             MoodleFQ
           </a>
         </NavLink>
-        <NavLink to={"https://www.fq.edu.uy/"}>
+        <NavLink className={" min-w-50"} to={"https://www.fq.edu.uy/"}>
           <img
-            className="h-full bg-white rounded-2xl p-1"
+            className="h-full bg-white rounded-2xl p-1 "
             src="https://www.fq.edu.uy/sites/default/files/archivos/identidad_grafica/Logotipos_Facultad%20de%20Quimica_Horizontal%20reducido_Color_Texto%20negro.png"
             alt="logo FQ"
           />
         </NavLink>
-        <NavLink to={"https://bedelias.udelar.edu.uy/"}>
+        <NavLink
+          className={" hidden xl:flex "}
+          to={"https://bedelias.udelar.edu.uy/"}
+        >
           <a
-            className=" items-center h-full hidden md:flex text-[#0e0036]"
+            className="flex items-center  h-full text-[#0e0036]"
             href="BedeliasCentral"
           >
             Bedelias Central
           </a>
         </NavLink>
-        <NavLink to={"/"}>
+        <NavLink className={"hidden sm:flex"} to={"/"}>
           <span className="flex items-center h-full text-[#0e0036]">
             Curso de Nivelación
           </span>
