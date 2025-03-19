@@ -18,6 +18,12 @@
   .tvf2 {
     @apply collapse hidden lg:visible lg:block;
   }
+  .tmo1 {
+    @apply collapse hidden sm:visible sm:block;
+  }
+  .tmo2 {
+    @apply collapse hidden lg:visible lg:block;
+  }
 
   .activo {
     --color-enfasis: initial;

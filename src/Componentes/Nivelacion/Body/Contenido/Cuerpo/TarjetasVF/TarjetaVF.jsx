@@ -32,7 +32,7 @@ function TarjetaVF({ contenido, index }) {
             </label>
             <input
               // className="w-4 h-4 ml-4 appearance-none border-1 border-enfasis rounded-full checked:bg-enfasis hover:bg-texto transition-colors duration-300 ease-in-out"
-              className="accent-enfasis w-4 h-4 ml-4 hover:accent-enfasis "
+              className="accent-enfasis w-4 h-4 ml-4 hover:accent-texto "
               type="radio"
               name={di}
               id="verdadero"

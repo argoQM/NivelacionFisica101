@@ -54,7 +54,7 @@ function VerdaderoFalso() {
       </div>
       <div className="flex justify-around  w-1/2 my-4 ">
         <button
-          className="border-2 border-texto p-1 rounded-2xl px-2 hover:bg-gradient-to-b from-white from-15% via-white via-75% to-naranjaO to-95% hover:text-[#0e0036] hover:border-enfasis hover:border-2"
+          className="border-2 border-texto p-1 rounded-2xl px-2 hover:bg-gradient-to-b from-white from-15% via-white via-75% to-naranjaO to-95% hover:text-[#0e0036] hover:border-enfasis hover:border-2 select-none"
           onClick={() => {
             setCorregirVF(true);
           }}
@@ -62,7 +62,7 @@ function VerdaderoFalso() {
           Corregir
         </button>
         <button
-          className="border-2 border-texto p-1 rounded-2xl px-2  hover:bg-gradient-to-b from-white from-15% via-white via-75% to-naranjaO to-95% hover:text-[#0e0036] hover:border-enfasis hover:border-2"
+          className="border-2 border-texto p-1 rounded-2xl px-2  hover:bg-gradient-to-b from-white from-15% via-white via-75% to-naranjaO to-95% hover:text-[#0e0036] hover:border-enfasis hover:border-2 select-none"
           onClick={() => {
             setActualizarVF(!actualizarVF);
             setCorregirVF(false);
