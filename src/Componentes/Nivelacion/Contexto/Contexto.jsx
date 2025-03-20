@@ -2288,7 +2288,7 @@ export const Datos = ({ children }) => {
           </span>,
           [
             <span value="a)">a) 7</span>,
-            <span value="b)">b) 8</span>,
+            <span value="b)">b) 12</span>,
             <span value="c)">c) 9</span>,
             <span value="d)">d) 10</span>,
           ],

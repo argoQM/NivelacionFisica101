@@ -33,7 +33,7 @@ function TarjetaMO({ contenido, index }) {
         <div className="text-xl  flex justify-around w-full min-h-50  items-center my-2 flex-wrap">
           <div className="min-w-1/2  max-w-full">
             <label className="mx-1 text-base " htmlFor="a">
-              {contenido[1][0]}:
+              {contenido[1][0]}
             </label>
             <input
               className="accent-enfasis w-4 h-4 ml-4 hover:accent-texto accent-border-pink-500"
@@ -47,7 +47,7 @@ function TarjetaMO({ contenido, index }) {
           </div>
           <div className="min-w-1/2  max-w-full">
             <label className="mx-1 text-base " htmlFor="b">
-              {contenido[1][1]}:
+              {contenido[1][1]}
             </label>
             <input
               className="accent-enfasis w-4 h-4 ml-4 hover:accent-texto accent-border-pink-500"
@@ -61,7 +61,7 @@ function TarjetaMO({ contenido, index }) {
           </div>
           <div className="min-w-1/2  max-w-full">
             <label className="mx-1 text-base " htmlFor="c">
-              {contenido[1][2]}:
+              {contenido[1][2]}
             </label>
             <input
               className="accent-enfasis w-4 h-4 ml-4 hover:accent-texto accent-border-pink-500"
@@ -75,7 +75,7 @@ function TarjetaMO({ contenido, index }) {
           </div>
           <div className="min-w-1/2  max-w-full">
             <label className="mx-1 text-base " htmlFor="d">
-              {contenido[1][3]}:
+              {contenido[1][3]}
             </label>
             <input
               className="accent-enfasis w-4 h-4 ml-4 hover:accent-texto accent-border-pink-500"
