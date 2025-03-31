@@ -6,6 +6,7 @@ export default function Nav() {
     <>
       <nav className="flex justify-evenly w-19/20 text-texto ">
         <NavLink
+          target="_blank"
           className={"hidden lg:block min-w-60 "}
           to={"https://detema.fq.edu.uy/"}
         >
@@ -20,13 +21,18 @@ export default function Nav() {
           to={"https://moodle3.fq.edu.uy/enrol/index.php?id=33"}
         >
           <a
+            target="_blank"
             className="flex items-center h-full text-[#0e0036]"
             href="https://moodle3.fq.edu.uy/enrol/index.php?id=33"
           >
             MoodleFQ
           </a>
         </NavLink>
-        <NavLink className={" min-w-45"} to={"https://www.fq.edu.uy/"}>
+        <NavLink
+          target="_blank"
+          className={" min-w-45"}
+          to={"https://www.fq.edu.uy/"}
+        >
           <img
             className="h-full bg-white rounded-2xl p-1 "
             src="https://www.fq.edu.uy/sites/default/files/archivos/identidad_grafica/Logotipos_Facultad%20de%20Quimica_Horizontal%20reducido_Color_Texto%20negro.png"
@@ -38,6 +44,7 @@ export default function Nav() {
           to={"https://bedelias.udelar.edu.uy/"}
         >
           <a
+            target="_blank"
             className="flex items-center  h-full text-[#0e0036]"
             href="https://bedelias.udelar.edu.uy/"
           >
@@ -45,7 +52,7 @@ export default function Nav() {
           </a>
         </NavLink>
         <NavLink className={"hidden sm:flex"} to={"/fisica101"}>
-          <span className="flex items-center h-full text-[#0e0036]">
+          <span className="flex items-center h-full text-[#0e0036] hover:text-enfasis">
             Física 101
           </span>
         </NavLink>
