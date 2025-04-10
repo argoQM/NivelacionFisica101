@@ -27,7 +27,7 @@ export default function Nav() {
           >
             <img
               className=" bg-white rounded-2xl p-1 "
-              src="public\images\logos\moodle.png"
+              src="images\logos\moodle.png"
               alt="Logo Moodle"
             />
           </a>
