@@ -17,15 +17,19 @@ export default function Nav() {
           />
         </NavLink>
         <NavLink
-          className={"max-w-30"}
+          className=" flex items-center justify-center max-w-30"
           to={"https://moodle3.fq.edu.uy/enrol/index.php?id=33"}
         >
           <a
+            className="h-full  flex items-center min-w-full"
             target="_blank"
-            className="flex items-center h-full text-[#0e0036]"
             href="https://moodle3.fq.edu.uy/enrol/index.php?id=33"
           >
-            MoodleFQ
+            <img
+              className=" bg-white rounded-2xl p-1 "
+              src="public/images/logos/moodle.png"
+              alt="Logo Moodle"
+            />
           </a>
         </NavLink>
         <NavLink
