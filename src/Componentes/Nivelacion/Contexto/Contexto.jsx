@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 export const Contexto = createContext();
 export const Datos = ({ children }) => {
   const listaTemas = [
-    "Vectores 2",
+    "Vectores",
     "Cinemática",
     "Dinámica",
     // "Trabajo y Energía",
